@@ -4,7 +4,8 @@
   "description": "Personal portfolio project as part of my CraftAcademy course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --inline --mode development --open",
+    "cy:open": "yarn start & cypress open"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "cypress": "^4.0.2",
     "eslint": "^4.18.2",
     "js-yaml": "^3.13.1",
     "style-loader": "^0.23.0",
@@ -36,8 +38,5 @@
     "webpack": "^4.41.6",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.10.3"
-  },
-  "scripts": {
-    "start": "webpack-dev-server --inline --mode development --open"
   }
 }
