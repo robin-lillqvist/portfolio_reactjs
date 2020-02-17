@@ -2,8 +2,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav>
-      <h1 id="header">My Portfolio</h1>
+    <nav className="ui fixed inverted menu">
+      <div className="ui container">
+        <h3 id="header" className="header item">My Portfolio</h3>
+      </div>
     </nav>
   );
 };
