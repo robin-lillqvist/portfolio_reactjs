@@ -33,7 +33,7 @@ class Projects extends Component {
             <UndrawProgramming primaryColor='#12283a' height='200px' />
           </div>
           <div className="column">
-            <h1 className="ui header">My Projects</h1>
+            <h1 className="ui header" id="projects-header">My Projects</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
               ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
