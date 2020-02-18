@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/robin-lillqvist/portfolio_reactjs#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
+    "react-undraw-illustrations": "^2.0.3",
     "serialize-javascript": "^3.0.0"
   },
   "devDependencies": {

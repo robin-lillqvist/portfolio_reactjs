@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "My First Website",
+    "image": "./dist/images/personal_site.jpg",
+    "description": "This was my first project. The guy lost, but won the popular vote!",
+    "link":"https://robin-lillqvist.github.io/"
+  },
+  {
+    "id": 2,
+    "name": "UI Design",
+    "image": "./dist/images/code.jpg",
+    "description": "Designing user interfaces is fun. I want to learn more about that...",
+    "link": "https://robin-lillqvist.github.io/BMI-calculator/"
+  },
+  {
+    "id": 3,
+    "name": "Mobile UX",
+    "image": "./dist/images/code.jpg",
+    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
+    "link": "https://github.com/robin-lillqvist/address_book_challenge"
+  }
+]
