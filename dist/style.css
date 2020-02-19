@@ -40,7 +40,7 @@ span {
 }
 .ui.card{
   height: 320px;
-
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .tech {
   float: left;
@@ -64,9 +64,14 @@ span {
 }
 
 #projects_image {
+  width: 40%;
   /* background-color: chocolate; */
 }
 
-#projects_text {
+#projects_text, #aboutme_text {
+  width: 60%;
+  padding-right: 80px;
   /* background-color: red; */
+  font-size: 1rem;
+  text-align: left;
 }

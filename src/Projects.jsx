@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
-import { UndrawDashboard, UndrawBuildingBlocks, UndrawBitcoin, UndrawChecklist } from "react-undraw-illustrations";
-import UndrawAtWork from "react-undraw-illustrations/lib/components/UndrawAtWork/UndrawAtWork";
-import UndrawADayAtThePark from "react-undraw-illustrations/lib/components/UndrawADayAtThePark/UndrawADayAtThePark";
-import UndrawWorkTime from "react-undraw-illustrations/lib/components/UndrawWorkTime/UndrawWorkTime";
-import UndrawProgramming from "react-undraw-illustrations/lib/components/UndrawProgramming/UndrawProgramming";
-
-
+import { UndrawCoding } from "react-undraw-illustrations";
 
 class Projects extends Component {
   state = { projects: [] };
@@ -30,7 +24,7 @@ class Projects extends Component {
       <div className="ui main container">
         <div className="ui stackable two column grid">
           <div id="projects_image" className="column">
-            <UndrawProgramming primaryColor='#12283a' height='200px' />
+            <UndrawCoding primaryColor='#008080' height='200px' />
           </div>
           <div id="projects_text" className="column">
             <h1 className="ui header" id="projects-header">My Projects</h1>

@@ -1,7 +1,5 @@
 import React from "react";
-import { UndrawDesignerLife, UndrawAstronaut, UndrawBeTheHero, UndrawWorkTime } from "react-undraw-illustrations";
-import UndrawFeelingBlue from "react-undraw-illustrations/lib/components/UndrawFeelingBlue/UndrawFeelingBlue";
-import UndrawWelcome from "react-undraw-illustrations/lib/components/UndrawWelcome/UndrawWelcome";
+import { UndrawWorkTime } from "react-undraw-illustrations";
 
 const About = () => {
   return (
