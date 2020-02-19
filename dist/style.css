@@ -25,17 +25,14 @@ footer {
 
 span {
   display: block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 #about-header {
   font-size: 2rem;
 }
 
-#hello {
-  text-align: center;
-  font-size: 7rem;
-  color: white;
-}
 .contacts {
   height: 40px;
   margin: 10px;
@@ -83,4 +80,13 @@ ui.menu {
 
 .svg_image {
   height: 200px;
+}
+
+#flex {
+  height: 100%;
+}
+
+#hello {
+  font-size: 10rem;
+  color: white;
 }
