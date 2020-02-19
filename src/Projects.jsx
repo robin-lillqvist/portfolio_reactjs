@@ -29,11 +29,16 @@ class Projects extends Component {
     return (
       <div className="ui main container">
         <div className="ui stackable two column grid">
-          <div className="column">
+          <div id="projects_image" className="column">
             <UndrawProgramming primaryColor='#12283a' height='200px' />
           </div>
-          <div className="column">
+          <div id="projects_text" className="column">
             <h1 className="ui header" id="projects-header">My Projects</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
+              ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
+              iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
+            </p>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
               ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
@@ -41,7 +46,7 @@ class Projects extends Component {
             </p>
           </div>
         </div>
-        <div className="ui stackable four column grid">{projectsList}</div>
+        <div id="project_list" className="ui stackable three column grid">{projectsList}</div>
       </div>
     );
   }

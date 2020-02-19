@@ -1,23 +1,58 @@
 [
   {
     "id": 1,
-    "name": "My First Website",
+    "name": "< My First Website />",
     "image": "./dist/images/personal_site.jpg",
-    "description": "This was my first project. The guy lost, but won the popular vote!",
+    "tech": "Javascript",
+    "description": "Personal site project made during CraftAcademy Bootcamp.",
     "link":"https://robin-lillqvist.github.io/"
   },
   {
     "id": 2,
-    "name": "UI Design",
-    "image": "./dist/images/code.jpg",
-    "description": "Designing user interfaces is fun. I want to learn more about that...",
-    "link": "https://robin-lillqvist.github.io/BMI-calculator/"
+    "name": "< React Chat />",
+    "image": "./dist/images/reactchat.jpg",
+    "tech": "Javascript",
+    "description": "React chat application created in React and deployed to firebase. Uses google to authenticate users.",
+    "link":"https://chatapp123124.firebaseapp.com/"
   },
   {
     "id": 3,
-    "name": "Mobile UX",
+    "name": "< BMI Calculator />",
+    "image": "./dist/images/bmi.jpg",
+    "tech": "Ruby",
+    "description": "Built a Calculator that calculates height and weight into BMI and assign a classification of body health",
+    "link": "https://robin-lillqvist.github.io/BMI-calculator/"
+  },
+  {
+    "id": 4,
+    "name": "< ATM in Ruby />",
     "image": "./dist/images/code.jpg",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
+    "tech": "Ruby",
+    "description": "Built an ATM application which given a command from a person class can deposit or withdraw money to account.",
+    "link": "https://github.com/robin-lillqvist/atm_challenge_2019"
+  },
+  {
+    "id": 5,
+    "name": "< Adressbook />",
+    "image": "./dist/images/addressbook.jpg",
+    "tech": "Javascript",
+    "description": "Adressbook that can store, delete and (soon)update contacts.",
     "link": "https://github.com/robin-lillqvist/address_book_challenge"
+  },
+  {
+    "id": 6,
+    "name": "< Future project />",
+    "image": "./dist/images/code.jpg",
+    "tech": "Javascript",
+    "description": "To learn more React I would like to create a chat using React Native that me and my Friends can use, that has gps positioning.",
+    "link": "https://github.com/robin-lillqvist/"
+  },
+  {
+    "id": 7,
+    "name": "< Future project />",
+    "image": "./dist/images/code.jpg",
+    "tech": "Javascript",
+    "description": "I would like to be able to create childrens learning apps for Ipads that toddlers and up could use to learn stuff like math etc...",
+    "link": "https://github.com/robin-lillqvist/"
   }
 ]
