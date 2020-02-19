@@ -1,12 +1,12 @@
 import React from "react";
-// import { UndrawAstronaut } from "react-undraw-illustrations";
+import { UndrawAstronaut } from "react-undraw-illustrations";
 
 const About = () => {
   return (
     <div className="ui main container">
       <div class="ui stackable two column grid">
         <div class="column">
-        {/* <UndrawAstronaut primaryColor='#12283a' height='200px' /> */}
+        <UndrawAstronaut primaryColor='#12283a' height='200px' />
         </div>
         <div id="aboutme_text" class="column">
           <h1 className="ui header" id="about-header">About Me</h1>
