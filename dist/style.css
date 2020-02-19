@@ -82,11 +82,13 @@ ui.menu {
   height: 200px;
 }
 
-#flex {
-  height: 100%;
-}
-
 #hello {
   font-size: 10rem;
-  color: white;
+  color: teal;
+  background-color: white;
+}
+.hello_text {
+  font-size: 3rem;
+  color: teal;
+  background-color: white;
 }

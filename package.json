@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --mode development --open",
-    "cy:open": "yarn start & cypress open"
+    "cy:open": "npm start & cypress open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robin-lillqvist/portfolio_reactjs.git"
+    "url": "https://github.com/robin-lillqvist/portfolio_reactjs.git"
   },
   "keywords": [],
   "author": "",

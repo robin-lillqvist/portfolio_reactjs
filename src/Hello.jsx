@@ -3,7 +3,7 @@ import React from "react";
 
 const Hello = () => {
   return (
-    <div
+    <div className="hero-image" 
     style={{ 
       background: 'url("./src/images/hero.jpg")', 
       backgroundSize: 'cover', 
@@ -14,8 +14,7 @@ const Hello = () => {
       }}>
       <div id="flex" className="ui main container">
         <h1 id="hello">Robin Lillqvist</h1>
-        <span className="">something about CraftAcademy and what i'm doing</span>
-        <span>something about which languages I like</span>
+        <span className="hello_text">Fullstack Webdeveloper</span>
       </div>
     </div>
   );
