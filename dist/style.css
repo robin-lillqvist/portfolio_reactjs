@@ -27,12 +27,14 @@ span {
   display: block;
 }
 
-#about-header, #hello {
+#about-header {
   font-size: 2rem;
 }
 
 #hello {
   text-align: center;
+  font-size: 7rem;
+  color: white;
 }
 .contacts {
   height: 40px;
@@ -55,6 +57,9 @@ span {
   height: 60%;
 }
 
+ui.menu {
+  margin: 0;
+}
 .ui.stackable.three.column.grid {
   justify-content: center;
 }
@@ -74,4 +79,8 @@ span {
   /* background-color: red; */
   font-size: 1rem;
   text-align: left;
+}
+
+.svg_image {
+  height: 200px;
 }

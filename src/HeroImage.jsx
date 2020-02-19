@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroImage = () => {
   return (
-    <img class="heroimage" src="../dist/images/hero.svg"></img>
+    <img className="heroimage" src="./src/images/hero.svg"></img>
   );
 };
 

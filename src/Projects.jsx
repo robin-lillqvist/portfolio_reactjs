@@ -23,7 +23,7 @@ class Projects extends Component {
       <div className="ui main container">
         <div className="ui stackable two column grid">
           <div id="projects_image" className="column">
-            {/* <UndrawCoding primaryColor='#008080' height='200px' /> */}
+          <img className="svg_image" src="./src/images/drawkit-support-man-colour.svg"></img>
           </div>
           <div id="projects_text" className="column">
             <h1 className="ui header" id="projects-header">My Projects</h1>
