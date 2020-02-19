@@ -14,7 +14,7 @@ const Hello = () => {
       }}>
       <div id="flex" className="ui main container">
         <h1 id="hello">Robin Lillqvist</h1>
-        <span className="hello_text">Fullstack Webdeveloper</span>
+        <span className="hello_text">Fullstack Web developer</span>
       </div>
     </div>
   );
