@@ -23,7 +23,7 @@ footer {
   justify-content: space-between;
 }
 
-span {
+span, p{
   display: block;
   vertical-align: middle;
   line-height: normal;
@@ -73,9 +73,12 @@ ui.menu {
 #projects_text, #aboutme_text {
   width: 60%;
   padding-right: 80px;
-  /* background-color: red; */
   font-size: 1rem;
   text-align: left;
+}
+
+#aboutme_text {
+  width: 80%;
 }
 
 .svg_image {
@@ -91,4 +94,21 @@ ui.menu {
   font-size: 3rem;
   color: #02B4AD;
   background-color: white;
+}
+
+.about_div {
+  margin-bottom: 15px;
+}
+
+.about_headline {
+font-size: large;
+font-weight: bold;
+}
+
+.about_bread {
+  
+}
+
+#about-header {
+  text-align: center;
 }

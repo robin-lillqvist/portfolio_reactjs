@@ -1,0 +1,18 @@
+[
+  {
+      "id": 1,
+      "companyname": "Comeon",
+      "position": "Javascript",
+      "start": "2015-03-01T08:00:00:000",
+      "end": "2015-03-01T08:00:00:000",
+      "description": "Personal site project made during CraftAcademy Bootcamp.",
+  },
+  {
+      "id": 2,
+      "companyname": "Ongame ",
+      "position": "Javascript",
+      "start": "2015-03-01T08:00:00:000",
+      "end": "2015-03-01T08:00:00:000",
+      "description": "Personal site project made during CraftAcademy Bootcamp.",
+  }
+]
