@@ -92,8 +92,6 @@ ui.menu {
   font-size: 5rem;
   color: white;
   font-family: 'Tomorrow', sans-serif;
-  margin: 60px;
-
 }
 .differentcolor {
   color: #FE9A76;
@@ -103,6 +101,7 @@ ui.menu {
   font-size: 3rem;
   font-family: 'Tomorrow', sans-serif;
   color: white;
+  margin-top: 2rem;
 }
 
 .about_div {
@@ -137,25 +136,26 @@ hr {
   height: 100%;
 }
 
-/* .ui.teal.inverted.responsive.menu{
-  margin-bottom: 0;
-} */
-
-.job {
-  /* margin: 5px; */
-  width: 100%;
-}
-
 .gradient {
   background: rgb(182,50,212);
   background: linear-gradient(90deg, rgba(182,50,212,1) 0%, rgba(0,191,255,1) 100%);
 }
 
-.job_period {
+.jobperiod {
   font-size: large;
 }
 
-.job_header {
+.jobheader {
 font-size: 2rem;
 margin: 10px;
+}
+
+.jobdescription {
+  font-size: 1.2rem;
+}
+
+span {
+  display: inline-flex;
+  margin: 10px;
+  word-wrap: break-word;
 }

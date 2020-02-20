@@ -5,9 +5,9 @@ const JobCard = ({ employment }) => {
   return (
     <>
     <br/>
-        <div className="job_header">{employment.position} at {employment.companyname}</div>
-        <div className="job_period">{employment.start}  -  {employment.end}</div>
-        <div className="job_bread">{employment.description}</div>
+        <div className="jobheader">{employment.position} at {employment.companyname}</div>
+        <div className="jobperiod">{employment.start}  -  {employment.end}</div>
+        <div className="jobdescription">{employment.description}</div>
     </>
   );
 };

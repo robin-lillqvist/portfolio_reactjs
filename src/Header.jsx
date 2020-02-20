@@ -10,17 +10,17 @@ const Header = () => {
         <div className="right menu">
         <NavLink
             id="cv-tab"
-            className="ui item larger"
+            className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/CV">CV</NavLink>
           <NavLink
             id="about-tab"
-            className="ui item larger"
+            className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/about">About me</NavLink>
           <NavLink
             id="projects-tab"
-            className="ui item larger"
+            className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/projects">Projects</NavLink>
         </div>
