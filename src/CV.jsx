@@ -1,51 +1,31 @@
 import React, { Component } from "react";
 import JobCard from "./JobCard";
 import axios from "axios";
+import ColoredLine from './SiteComponents'
 
 class CV extends Component {
-  state = { jobs: [] };
+  state = { employments: [] };
 
   render() {
-    const jobs = this.state.jobs;
-    let jobsList;
-
-    if (jobs.length > 0) {
-      jobsList = jobs.map(job => {
+    const employments = this.state.employments;
+    let employmentList;
+    
+    if (employments.length > 0) {
+      employmentList = employments.map(employment => {
         return (
-          <div id={'job-' + job.id} key={job.id}>
-            <JobCard job={job} />
+          <div id={'employment-' + employment.id} key={employment.id}>
+            <JobCard employment={employment} />
+            {/* <ColoredLine /> */}
           </div>
         );
       });
     }
-    
+
     return (
-    <div className="ui main container">
-        <div className="ui">
-          <img className="svg_image" src="./src/images/drawkit-content-man-colour.svg"></img>
+    <div id="CV_height" className="ui main container">
           <h1 className="ui header" id="about-header">Curriculum Vitae</h1>
-          <div className="ui grid">
-            <div className="four wide column" style={{ 
-                backgroundColor: "lightblue"
-            }}><p>Test</p>
-            </div>
-            <div className="six wide column" style={{ 
-                backgroundColor: "lightblue"
-            }}><p>Test</p>
-            </div>
-            <div className="six wide column" style={{ 
-                backgroundColor: "lightblue"
-            }}><p>Test</p>
-            </div>
-            <div className="four wide column" style={{ 
-                backgroundColor: "lightblue"
-            }}><p>Test</p></div>
-            <div className="twelve wide column" style={{ 
-                backgroundColor: "teal"
-            }}><p>Test</p></div>
-        </div>
-        </div>
-        <div id="job_list" className="ui stackable three column grid">{jobsList}</div>
+          <img className="svg_image" src="./src/images/drawkit-folder-man-colour.svg"/>
+          <div id="employment_list">{employmentList}</div>
     </div>
   );
 }
@@ -54,11 +34,11 @@ class CV extends Component {
     axios.get('./src/data/jobs.json')
       .then(response => {
         this.setState({
-          jobs: response.data
+          employments: response.data
         })
       })
   }
-  
+
 }
 
 export default CV;

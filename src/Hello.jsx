@@ -5,7 +5,7 @@ const Hello = () => {
   return (
     <div className="hero-image" 
       style={{ 
-        backgroundImage: 'url("./src/images/hero2.jpg")', 
+        backgroundImage: 'url("./src/images/hero3.jpg")', 
         backgroundSize: 'cover', 
         height: '100vh', 
         marginTop: '-1rem',
@@ -14,8 +14,9 @@ const Hello = () => {
             }}>
       
       <div className="responive ui main container">
-        <h1 className= "responive" id="hello">Robin Lillqvist</h1>
-        <span className="hello_text">Fullstack Web developer</span>
+        <div className= "hello_text_top"></div>
+        <div className="hello">Hello, I'm <span className="differentcolor">Robin Lillqvist</span></div>
+        <span className="hello_text">Junior fullstack web developer</span>
       </div>
 
     </div>

@@ -1,20 +1,13 @@
 import React from "react";
 
-const JobCard = ({ CV }) => {
+
+const JobCard = ({ employment }) => {
   return (
-    <><br/>
-      <div className="ui card">
-        {/* <div className="image">
-          <img src={project.image} />
-        </div> */}
-        <div className="content">
-          <h3 className="ui header">{job.position}</h3>
-          <div className="companyName">{job.companyname}</div>
-          <div className="job_dates">{job.start}</div>
-          <div className="job_dates">{job.end}</div>
-          <div className="description">{job.description}</div>
-        </div>
-      </div>
+    <>
+    <br/>
+        <div className="job_header">{employment.position} at {employment.companyname}</div>
+        <div className="job_period">{employment.start}  -  {employment.end}</div>
+        <div className="job_bread">{employment.description}</div>
     </>
   );
 };

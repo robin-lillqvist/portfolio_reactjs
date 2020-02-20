@@ -20,7 +20,7 @@
     "name": "< BMI Calculator />",
     "image": "./src/images/bmi.jpg",
     "tech": "Ruby",
-    "description": "Built a Calculator that calculates height and weight into BMI and assign a classification of body health",
+    "description": "Built a Calculator that calculates height and weight into BMI and assign a classification of body health.",
     "link": "https://robin-lillqvist.github.io/BMI-calculator/"
   },
   {
