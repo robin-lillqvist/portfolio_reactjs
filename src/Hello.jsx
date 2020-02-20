@@ -4,18 +4,21 @@ import React from "react";
 const Hello = () => {
   return (
     <div className="hero-image" 
-    style={{ 
-      background: 'url("./src/images/hero.jpg")', 
-      backgroundSize: 'cover', 
-      height: '100vh', 
-      marginTop: '-1rem',
-      display: 'flex',
-      alignItems: 'center'
-      }}>
-      <div id="flex" className="ui main container">
-        <h1 id="hello">Robin Lillqvist</h1>
-        <span className="hello_text">Fullstack Web developer</span>
+      style={{ 
+        backgroundImage: 'url("./src/images/hero3.jpg")', 
+        backgroundSize: 'cover', 
+        height: '100vh', 
+        marginTop: '-1rem',
+        display: 'flex',
+        alignItems: 'center'
+            }}>
+      
+      <div className="responive ui main container">
+        <div className= "hello_text_top"></div>
+        <div><span className="hello">Hello, I'm </span><span className="hello differentcolor">Robin Lillqvist</span></div>
+        <span className="hello_text">Junior fullstack web developer</span>
       </div>
+
     </div>
   );
 };

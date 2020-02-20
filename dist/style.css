@@ -3,14 +3,13 @@ footer {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #f5f5f5;
+  background-color: white;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
 }
 
 .main.container {
-  margin-top: 4em;
   text-align: center;
   padding: 3em;
   word-wrap: break-word;
@@ -23,10 +22,8 @@ footer {
   justify-content: space-between;
 }
 
-span {
-  display: block;
+.contacts{
   vertical-align: middle;
-  line-height: normal;
 }
 
 #about-header {
@@ -38,31 +35,36 @@ span {
   margin: 10px;
 }
 .ui.card{
-  height: 320px;
+  height: 350px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .tech {
   float: left;
+  bottom: 0;
 }
 .link {
+  bottom: 0;
   float: right;
+}
+.larger {
+  font-size: large;
 }
 .content {
   height: 100%;
 }
 .description {
-  height: 60%;
+  height: 65%;
 }
 
 ui.menu {
   margin: 0;
+  font-size: 1.2rem;
 }
-.ui.stackable.three.column.grid {
+.ui.stackable.column.grid {
   justify-content: center;
 }
 .ui.stackable.two.column.grid {
   justify-content: center;
-  /* background-color: cadetblue!important; */
 }
 
 #projects_image {
@@ -70,25 +72,90 @@ ui.menu {
   /* background-color: chocolate; */
 }
 
-#projects_text, #aboutme_text {
+#projects_text {
   width: 60%;
   padding-right: 80px;
-  /* background-color: red; */
   font-size: 1rem;
   text-align: left;
+}
+
+#aboutme_text {
+  width: 80%;
+  background-color: tomato!important;
 }
 
 .svg_image {
   height: 200px;
 }
 
-#hello {
-  font-size: 10rem;
-  color: #02B4AD;
-  background-color: white;
+.hello {
+  font-size: 5rem;
+  color: white;
+  font-family: 'Tomorrow', sans-serif;
+}
+.differentcolor {
+  color: #FE9A76;
+  font-weight: bold;
 }
 .hello_text {
   font-size: 3rem;
+  font-family: 'Tomorrow', sans-serif;
+  color: white;
+  margin-top: 2rem;
+}
+
+.about_div {
+  margin-bottom: 15px;
+}
+
+.about_headline {
+font-size: large;
+font-weight: bold;
+}
+
+.about_bread {
+  
+}
+
+hr {
+  margin-top: 50px;
+  background-color: #02B4AD;
   color: #02B4AD;
-  background-color: white;
+}
+
+#about_page {
+   height: 100%;
+}
+
+#about-header {
+  text-align: center;
+}
+
+
+#CV_height {
+  height: 100%;
+}
+
+.gradient {
+  background: rgb(182,50,212);
+  background: linear-gradient(90deg, rgba(182,50,212,1) 0%, rgba(0,191,255,1) 100%);
+}
+
+.jobperiod {
+  font-size: large;
+}
+
+.jobheader {
+font-size: 2rem;
+margin: 10px;
+}
+
+.jobdescription {
+  font-size: 1.2rem;
+}
+
+span {
+  display: inline-flex;
+  margin: 10px;
+  word-wrap: break-word;
 }

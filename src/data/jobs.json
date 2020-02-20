@@ -1,0 +1,26 @@
+[
+  {
+      "id": 1,
+      "companyname": "Comeon",
+      "position": "Software Tester",
+      "start": "2015-03-01",
+      "end": "Currently",
+      "description": "Part of a test organisation where I both do manual testing and test automation using Cypress."
+  },
+  {
+      "id": 2,
+      "companyname": "Ongame",
+      "position": "QA Engineer",
+      "start": "2010-02-01",
+      "end": "2015-03-01",
+      "description": "Part of a test organisation where I both did manual testing as well as load testing with LoadRunner and Jmeter."
+  },
+  {
+      "id": 3,
+      "companyname": "Telenor",
+      "position": "Acceptance Tester",
+      "start": "2007-07-01",
+      "end": "2010-01-01",
+      "description": "Together with business decided acceptance criteria for accepting deliverables from outsourced code production, and in accordance to that."
+  }
+]

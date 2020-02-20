@@ -1,17 +1,44 @@
-import React from "react";
+import React, { Component } from "react";
+import JobCard from "./JobCard";
+import axios from "axios";
+import ColoredLine from './SiteComponents'
 
-const About = () => {
-  return (
-    <div className="ui main container">
-        <img className="svg_image" src="./src/images/drawkit-content-man-colour.svg"></img>
+class CV extends Component {
+  state = { employments: [] };
+
+  render() {
+    const employments = this.state.employments;
+    let employmentList;
+    
+    if (employments.length > 0) {
+      employmentList = employments.map(employment => {
+        return (
+          <div id={'employment-' + employment.id} key={employment.id}>
+            <JobCard employment={employment} />
+            {/* <ColoredLine /> */}
+          </div>
+        );
+      });
+    }
+
+    return (
+    <div id="CV_height" className="ui main container">
           <h1 className="ui header" id="about-header">Curriculum Vitae</h1>
-          <p>
-            Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
-            corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
-            molestias?
-          </p>
+          <img className="svg_image" src="./src/images/drawkit-folder-man-colour.svg"/>
+          <div id="employment_list">{employmentList}</div>
     </div>
   );
-};
+}
 
-export default About;
+  componentDidMount() {
+    axios.get('./src/data/jobs.json')
+      .then(response => {
+        this.setState({
+          employments: response.data
+        })
+      })
+  }
+
+}
+
+export default CV;

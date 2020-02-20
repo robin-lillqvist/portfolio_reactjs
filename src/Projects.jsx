@@ -28,14 +28,7 @@ class Projects extends Component {
           <div id="projects_text" className="column">
             <h1 className="ui header" id="projects-header">My Projects</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
-              ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
-              iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
-              ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
-              iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
+              Here are the projects that I have done, and plan on doing. Most is from CraftAcademy bootcamp with few exceptions.
             </p>
           </div>
         </div>
