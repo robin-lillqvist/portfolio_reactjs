@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="ui large teal inverted responsive menu">
+    <nav className="ui teal inverted menu">
       <div className="ui container">
         <Link id="header" className="header item" to="/">
           My Portfolio</Link>
