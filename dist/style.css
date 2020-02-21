@@ -69,7 +69,6 @@ ui.menu {
 
 #projects_image {
   width: 40%;
-  /* background-color: chocolate; */
 }
 
 #projects_text {
@@ -81,7 +80,6 @@ ui.menu {
 
 #aboutme_text {
   width: 80%;
-  background-color: tomato!important;
 }
 
 .svg_image {
@@ -92,16 +90,19 @@ ui.menu {
   font-size: 6rem;
   color: white;
   font-family: 'Tomorrow', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 .differentcolor {
   color: #FE9A76;
   font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
 }
 .hello_text {
   font-size: 3rem;
   font-family: 'Tomorrow', sans-serif;
   color: white;
   margin-top: 2rem;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .about_div {
@@ -166,4 +167,7 @@ span {
 .narrower {
   padding-top: 0rem!important;
   padding-bottom: 0rem!important;
+}
+.ui.item {
+  font-weight: bold!important;
 }
