@@ -3,8 +3,8 @@ import React from "react";
 const SkillCard = ({ skill }) => {
   return (
     <>        
-    {skill.name}
-    {skill.stars}
+    <div class="column">{skill.name}</div>
+    <div class="column">{skill.stars}</div>
     </>
   );
 };
