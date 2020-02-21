@@ -7,7 +7,7 @@ const JobCard = ({ employment }) => {
     <div id="JobCard" className="ui raised very padded text container segment">
         <div class="ui top right attached label">{employment.start} - {employment.end}</div>
         <h2 class="ui header">{employment.position} at {employment.companyname}</h2>
-        <p>{employment.description}</p>
+        <p className="jobdescription">{employment.description}</p>
     </div>
     </>
   );
