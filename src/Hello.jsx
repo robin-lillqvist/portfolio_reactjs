@@ -5,7 +5,7 @@ const Hello = () => {
   return (
     <div className="hero-image" 
       style={{ 
-        backgroundImage: 'url("./src/images/hero3.jpg")', 
+        backgroundImage: 'url("./src/images/hero3_4k.jpg")', 
         backgroundSize: 'cover', 
         height: '100vh', 
         marginTop: '-1rem',
