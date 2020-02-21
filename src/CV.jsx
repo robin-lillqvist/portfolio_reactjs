@@ -13,32 +13,27 @@ class CV extends Component {
     let employmentList;
     let SkillsList;
     
-    // if (employments.length > 0) {
       employmentList = employments.map(employment => {
         return (
           <div id={'employment-' + employment.id} key={employment.id}>
-            <JobCard employment={employment} />
-            {/* <ColoredLine /> */}
+            <JobCard employment={employment}/>
           </div>
         );
       });
-    // }
-    // if (employments.length > 0) {
+
       SkillsList = skills.map(skill => {
         return (
           <div class="ui grid">
-          <div class="two column row" id={'skill-' + skill.id} key={skill.id}>
-            <SkillCard skill={skill} />
+          <div class="two column row narrower" id={'skill-' + skill.id} key={skill.id}>
+            <SkillCard skill={skill}/>
             </div>
-            {/* <ColoredLine /> */}
           </div>
         );
       });
-    // }
 
     return (
     <div className="ui main container">
-          <h1 className="ui header" id="about-header">Curriculum Vitae</h1>
+          <h1 className="ui header" id="about-header">Experience</h1>
           <img className="svg_image" src="./src/images/drawkit-folder-man-colour.svg"/>
           <div id="employment_list">{SkillsList}</div>
           <div id="employment_list">{employmentList}</div>

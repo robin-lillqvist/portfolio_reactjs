@@ -3,8 +3,14 @@ import React from "react";
 const SkillCard = ({ skill }) => {
   return (
     <>        
-    <div class="column">{skill.name}</div>
-    <div class="column">{skill.stars}</div>
+      <div className="column five wide right aligned ">{skill.name}</div>
+      <div className="column six wide left aligned">
+        <div className="ui progress" data-percent="52">
+          <div className="bar" style={{transitionDuration: "300ms", width: skill.progress}}>
+            <div class="progress">{skill.progress}</div>
+          </div>
+      </div>
+      </div>
     </>
   );
 };
