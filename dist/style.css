@@ -163,9 +163,7 @@ span {
   width: 200px!important;
 }
 
-.skills {
-  /* width: 5rem!important; */
-}
-.skill_stars {
-  /* width: 5rem!important; */
+.narrower {
+  padding-top: 0rem!important;
+  padding-bottom: 0rem!important;
 }

@@ -2,21 +2,21 @@
     {
         "id": 1,
         "name": "HTML",
-        "stars": 4
+        "progress": "75%"
     },
     {
         "id": 2,
         "name": "CSS",
-        "stars": 4
+        "progress": "65%"
     },
     {
         "id": 3,
         "name": "Javascript",
-        "stars": 4
+        "progress": "45%"
     },
     {
         "id": 4,
         "name": "React",
-        "stars": 4
+        "progress": "35%"
     }
   ]
