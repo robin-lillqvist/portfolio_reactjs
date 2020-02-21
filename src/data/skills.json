@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "stars": 4
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "stars": 4
+    },
+    {
+        "id": 3,
+        "name": "Javascript",
+        "stars": 4
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "stars": 4
+    }
+  ]
