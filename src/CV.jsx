@@ -26,8 +26,10 @@ class CV extends Component {
     // if (employments.length > 0) {
       SkillsList = skills.map(skill => {
         return (
-          <div id={'skill-' + skill.id} key={skill.id}>
+          <div class="ui grid">
+          <div class="two column row" id={'skill-' + skill.id} key={skill.id}>
             <SkillCard skill={skill} />
+            </div>
             {/* <ColoredLine /> */}
           </div>
         );
@@ -38,6 +40,9 @@ class CV extends Component {
     <div className="ui main container">
           <h1 className="ui header" id="about-header">Curriculum Vitae</h1>
           <img className="svg_image" src="./src/images/drawkit-folder-man-colour.svg"/>
+
+
+          <div id="employment_list">{SkillsList}</div>
           <div id="employment_list">{employmentList}</div>
     </div>
   );

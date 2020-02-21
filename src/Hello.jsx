@@ -16,7 +16,7 @@ const Hello = () => {
       <div className="responive ui main container">
         <div className= "hello_text_top"></div>
         <div><span className="hello">Hello, I'm </span><span className="hello differentcolor">Robin Lillqvist</span></div>
-        <span className="hello_text">Junior fullstack web developer</span>
+        <span className="hello_text">QA turned junior fullstack web developer</span>
       </div>
 
     </div>
