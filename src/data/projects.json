@@ -1,6 +1,22 @@
 [
   {
-    "id": 1,
+    "id": 9,
+    "name": "< Cooper Challenger Site />",
+    "image": "./src/images/cooper.jpg",
+    "tech": "Javascript",
+    "description": "Site for Cooper Challenge",
+    "link":"https://github.com/robin-lillqvist/cooper_client"
+  },
+  {
+    "id": 8,
+    "name": "< Janko's restaurant />",
+    "image": "./src/images/restaurant.jpg",
+    "tech": "Javascript",
+    "description": "Mock website for a Restaurant",
+    "link":"https://github.com/robin-lillqvist/slowfood-client-team-4"
+  },
+  {
+    "id": 7,
     "name": "< My First Website />",
     "image": "./src/images/personal_site.jpg",
     "tech": "Javascript",
@@ -8,7 +24,7 @@
     "link":"https://robin-lillqvist.github.io/"
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "< React Chat />",
     "image": "./src/images/code.jpg",
     "tech": "Javascript",
@@ -16,7 +32,7 @@
     "link":"https://chatapp123124.firebaseapp.com/"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "< BMI Calculator />",
     "image": "./src/images/bmi.jpg",
     "tech": "Ruby",
@@ -32,7 +48,7 @@
     "link": "https://github.com/robin-lillqvist/atm_challenge_2019"
   },
   {
-    "id": 5,
+    "id": 3,
     "name": "< Adressbook />",
     "image": "./src/images/addressbook.jpg",
     "tech": "Javascript",
@@ -40,7 +56,7 @@
     "link": "https://github.com/robin-lillqvist/address_book_challenge"
   },
   {
-    "id": 6,
+    "id": 2,
     "name": "< Future project />",
     "image": "./src/images/code.jpg",
     "tech": "Javascript",
@@ -48,7 +64,7 @@
     "link": "https://github.com/robin-lillqvist/"
   },
   {
-    "id": 7,
+    "id": 1,
     "name": "< Future project />",
     "image": "./src/images/code.jpg",
     "tech": "Javascript",
