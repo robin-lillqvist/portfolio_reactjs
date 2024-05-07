@@ -19,10 +19,10 @@
   },
   "homepage": "https://github.com/robin-lillqvist/portfolio_reactjs#readme",
   "dependencies": {
-    "ajv": "^5.5.2",
-    "axios": "^0.21.1",
+    "ajv": "^6.12.3",
+    "axios": "^0.21.2",
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "mini-create-react-context": "^0.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
