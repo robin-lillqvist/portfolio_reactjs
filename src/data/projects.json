@@ -1,74 +1,10 @@
 [
-  {
-    "id": 9,
-    "name": "< Cooper Challenger Site />",
-    "image": "./src/images/cooper.jpg",
-    "tech": "Javascript",
-    "description": "Site for Cooper Challenge",
-    "link":"https://github.com/robin-lillqvist/cooper_client"
-  },
-  {
-    "id": 8,
-    "name": "< Janko's restaurant />",
-    "image": "./src/images/restaurant.jpg",
-    "tech": "Javascript",
-    "description": "Mock website for a Restaurant",
-    "link":"https://github.com/robin-lillqvist/slowfood-client-team-4"
-  },
-  {
-    "id": 7,
-    "name": "< My First Website />",
-    "image": "./src/images/personal_site.jpg",
-    "tech": "Javascript",
-    "description": "Personal site project made during CraftAcademy Bootcamp.",
-    "link":"https://robin-lillqvist.github.io/"
-  },
-  {
-    "id": 6,
-    "name": "< React Chat />",
-    "image": "./src/images/code.jpg",
-    "tech": "Javascript",
-    "description": "React chat application created in React and deployed to firebase. Uses google to authenticate users.",
-    "link":"https://chatapp123124.firebaseapp.com/"
-  },
-  {
-    "id": 5,
-    "name": "< BMI Calculator />",
-    "image": "./src/images/bmi.jpg",
-    "tech": "Ruby",
-    "description": "Built a Calculator that calculates height and weight into BMI and assign a classification of body health.",
-    "link": "https://robin-lillqvist.github.io/BMI-calculator/"
-  },
-  {
-    "id": 4,
-    "name": "< ATM in Ruby />",
-    "image": "./src/images/code.jpg",
-    "tech": "Ruby",
-    "description": "Built an ATM application which given a command from a person class can deposit or withdraw money to account.",
-    "link": "https://github.com/robin-lillqvist/atm_challenge_2019"
-  },
-  {
-    "id": 3,
-    "name": "< Adressbook />",
-    "image": "./src/images/addressbook.jpg",
-    "tech": "Javascript",
-    "description": "Adressbook that can store, delete and (soon)update contacts.",
-    "link": "https://github.com/robin-lillqvist/address_book_challenge"
-  },
-  {
-    "id": 2,
-    "name": "< Future project />",
-    "image": "./src/images/code.jpg",
-    "tech": "Javascript",
-    "description": "To learn more React I would like to create a chat using React Native that me and my Friends can use, that has gps positioning.",
-    "link": "https://github.com/robin-lillqvist/"
-  },
-  {
+    {
     "id": 1,
-    "name": "< Future project />",
+    "name": "< Comeon />",
     "image": "./src/images/code.jpg",
-    "tech": "Javascript",
-    "description": "I would like to be able to create childrens learning apps for Ipads that toddlers and up could use to learn stuff like math etc...",
-    "link": "https://github.com/robin-lillqvist/"
+    "tech": "React",
+    "description": "WeSpin page on Comeon site. (does not work in sweden due to regulations)",
+    "link": "https://comeon.com/wespin"
   }
 ]
