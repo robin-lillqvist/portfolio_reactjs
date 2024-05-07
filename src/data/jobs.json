@@ -1,14 +1,30 @@
 [
-  {
+   {
       "id": 1,
-      "companyname": "Comeon",
-      "position": "Software Tester",
-      "start": "2015-03-01",
+      "companyname": "Knowit Experience",
+      "position": "Frontend Developer",
+      "start": "2023-08-28",
       "end": "Currently",
-      "description": "Part of a test organisation where I both do manual testing and test automation using Cypress."
+      "description": "Part of Team X, currently without an assigment. Making the most of the downtime and Learning NextJS."
   },
   {
       "id": 2,
+      "companyname": "Comeon",
+      "position": "Frontend Developer/Designer",
+      "start": "2020-10-01",
+      "end": "2023-08-28",
+      "description": "Part of the WeSpin team at Comeon I worked mainly with updating and maintaining WeSpin code and components with functionality and styling."
+  },
+  {
+      "id": 3,
+      "companyname": "Comeon",
+      "position": "Software Tester",
+      "start": "2015-03-01",
+      "end": "2020-10-01",
+      "description": "Part of a test organisation where I both do manual testing and test automation using Cypress."
+  },
+  {
+      "id": 4,
       "companyname": "Ongame",
       "position": "QA Engineer",
       "start": "2010-02-01",
@@ -16,7 +32,7 @@
       "description": "Part of a test organisation where I both did manual testing as well as load testing with LoadRunner and Jmeter."
   },
   {
-      "id": 3,
+      "id": 5,
       "companyname": "Telenor",
       "position": "Acceptance Tester",
       "start": "2007-07-01",
